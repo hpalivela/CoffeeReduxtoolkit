@@ -1,0 +1,16 @@
+@keyframes scrollText {
+    0% {
+      transform: translateX(1%);
+    }
+    100% {
+      transform: translateX(-1%);
+    }
+  }
+  
+  .scroll {
+    animation: scrollText 1s linear infinite;
+  }
+  
+  .scroll:hover {
+    animation-play-state: paused;
+  }  
